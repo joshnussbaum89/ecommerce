@@ -4,9 +4,9 @@ import styles from './page.module.css'
 
 export default function HomePage() {
   return (
-    <div className={styles.content}>
+    <div className={styles.hero}>
       <div className={styles.wrapper}>
-        <div>
+        <div className={styles.content}>
           <p>new product</p>
           <h2>xx99 mark ii headphones</h2>
           <p>

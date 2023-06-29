@@ -1,0 +1,31 @@
+.wrapper {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: var(--width-max);
+    height: 6rem;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--color-border);
+  }
+}
+
+.wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.125rem;
+  list-style: none;
+}
+
+.wrapper ul li {
+  font-size: var(--size-xxxs);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-md);
+  font-weight: 700;
+}

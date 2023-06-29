@@ -1,6 +1,6 @@
-import './globals.css'
+import Navigation from '@/components/Layout/Navigation/Navigation'
 import { Manrope } from 'next/font/google'
-import Navigation from '@/components/layout/navigation/Navigation'
+import './globals.css'
 
 const manrope = Manrope({ subsets: ['latin'] })
 

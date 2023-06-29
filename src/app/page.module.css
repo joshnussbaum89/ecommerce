@@ -1,30 +1,93 @@
-.content {
+.hero {
   color: var(--color-white);
   background-color: var(--color-slate);
 }
 
 .wrapper {
-  width: 100%;
+  width: 90%;
+  height: calc(100vh - 6rem);
   max-width: var(--width-max);
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  background-image: url('/mark-II-headphones.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    background-image: none;
+  }
 }
 
 .content p {
   color: var(--color-light-grey);
 }
 
+/* TODO: save text styling values in CSS variables */
 .content p:first-of-type {
   opacity: var(--opacity-light);
+  font-size: var(--size-xxs);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-lg);
+  margin-bottom: 1rem;
 }
 
 .content p:last-of-type {
+  margin-bottom: 1.75rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
   opacity: var(--opacity-medium);
 }
 
+.content h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.08038rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .content h2 {
+    font-size: var(--size-xxxl);
+    line-height: 3.625rem;
+    letter-spacing: var(--letter-spacing-md);
+  }
+}
+
+.content a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: var(--size-xxxs);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-sm);
+  font-weight: 700;
+  background: var(--color-orange);
+}
+
+.content a:hover {
+  color: var(--color-white);
+  background: var(--color-light-orange);
+}
+
 .image {
-  width: 100%;
-  height: auto;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }

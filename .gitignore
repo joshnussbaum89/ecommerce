@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 /starter-files
+TODO.md
 
 # debug
 npm-debug.log*

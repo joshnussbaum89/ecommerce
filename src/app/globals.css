@@ -3,12 +3,15 @@
   --width-max: 1400px;
 
   /* Font Sizes */
-  --size-extra-small: 1rem;
-  --size-small: 1.125rem;
-  --size-normal: 1.25rem;
-  --size-medium: 1.5rem;
-  --size-large: 2rem;
-  --size-extra-large: 2.625rem;
+  --size-xxxs: 0.8125rem;
+  --size-xxs: 0.875rem;
+  --size-xs: 1.125rem;
+  --size-sm: 1.5rem;
+  --size-md: 1.75rem;
+  --size-lg: 2.625rem;
+  --size-xl: 2rem;
+  --size-xxl: 2.5rem;
+  --size-xxxl: 3.5rem;
 
   /* Colors */
   --color-white: #ffffff;
@@ -19,16 +22,15 @@
   --color-orange: #d87d4a;
   --color-light-orange: #fbaf85;
   --color-red: #cd2c2c;
-
-  /* Font sizes */
-  --font-size-extra-small: 0.8125rem;
+  --color-border: #4c4c4c33;
 
   /* Line heights */
-  --line-height-normal: 1.5625rem;
+  --line-height-theme: 1.5625rem;
 
   /* Letter spacing */
-  --letter-spacing-small: 0.0625rem;
-  --letter-spacing-large: 0.125rem;
+  --letter-spacing-sm: 0.0625rem;
+  --letter-spacing-md: 0.125rem;
+  --letter-spacing-lg: 0.625rem;
 
   /* Opacity */
   --opacity-light: 0.5;
@@ -58,5 +60,6 @@ a:hover {
 
 p,
 li {
-  line-height: var(--line-height-normal);
+  line-height: var(--line-height-theme);
+  font-weight: 400;
 }
