@@ -1,3 +1,5 @@
+import PageHeader from '@/components/Layout/Header/PageHeader'
+
 export default function SpeakersPage() {
-  return <h1>Speakers Page</h1>
+  return <PageHeader title="Speakers" />
 }

@@ -1,3 +1,5 @@
+import PageHeader from '@/components/Layout/Header/PageHeader'
+
 export default function EarphonesPage() {
-  return <h1>Earphones Page</h1>
+  return <PageHeader title="Earphones" />
 }

@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   height: calc(100vh - 6rem);
   max-width: var(--width-max);
   margin: 0 auto;
@@ -22,10 +22,21 @@
 
 @media (min-width: 768px) {
   .wrapper {
+    width: 90%;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
     background-image: none;
+  }
+}
+
+.content {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 100%;
   }
 }
 

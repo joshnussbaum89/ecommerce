@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  background-color: var(--color-slate);
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 14.75rem;
+  }
+}
+
+.header h1 {
+  font-size: var(--size-md);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-md);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: var(--size-xxl);
+    line-height: 2.75rem;
+  }
+}
