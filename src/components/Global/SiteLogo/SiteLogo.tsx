@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Logo from '@/components/Icons/Logo'
+import Logo from '@/components/icons/Logo'
 import styles from './SiteLogo.module.css'
 
 export default function SiteLogo() {

@@ -1,6 +1,6 @@
-import Hamburger from '@/components/Icons/Hamburger'
-import SiteLogo from '@/components/Global/SiteLogo/SiteLogo'
-import Cart from '@/components/Shop/Cart/Cart'
+import Hamburger from '@/components/icons/Hamburger'
+import SiteLogo from '@/components/global/SiteLogo/SiteLogo'
+import Cart from '@/components/shop/Cart/Cart'
 import styles from './Mobile.module.css'
 
 export default function Mobile() {

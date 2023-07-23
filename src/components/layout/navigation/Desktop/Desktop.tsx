@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import SiteLogo from '@/components/Global/SiteLogo/SiteLogo'
-import Cart from '@/components/Shop/Cart/Cart'
+import SiteLogo from '@/components/global/SiteLogo/SiteLogo'
+import Cart from '@/components/shop/Cart/Cart'
 import styles from './Desktop.module.css'
 
 export default function Desktop() {

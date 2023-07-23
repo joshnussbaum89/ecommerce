@@ -1,4 +1,4 @@
-import Navigation from '@/components/Layout/Navigation/Navigation'
+import Navigation from '@/components/layout/Navigation/Navigation'
 import { Manrope } from 'next/font/google'
 import './globals.css'
 
